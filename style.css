@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+
+}
+
+.backround img {
+   height: 101vh;
+   width: 100%;
+
+
+
+}
+
+.main h1{
+    width: 69%;
+  font-size: 4rem;
+    color: black;
+   position: absolute;
+   left: 54%;
+   top: 40%;
+   transform: translate(-50%,-50%);
+}
+.setting img{
+position: absolute;
+left: 96%;
+right:  40%;
+top: 91%;
+background-color: white;
+
+
+}
+.contentset {
+
+    height: 60px;
+    width: 75px;
+    position: absolute;
+    left: 85%;
+right:  40%;
+top: 92%;
+
+}
+.contentset input{
+    height: 30px;
+    width: 160px;
+}
+.contentset button{
+    border: none;
+    color: white;
+    height: 20px;
+    background-color: purple;
+    width: 80px;
+    border-radius: 6px;
+}
+.hide{
+    display: none;
+ 
+}
+
+
+
+.timecont{
+    display: flex;
+    gap: 34px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.timecont h2{
+    text-align: center;
+    font-size: 2.7rem;
+    color: white;
+}
